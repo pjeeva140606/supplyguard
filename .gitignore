@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.env
+venv/
+.venv/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Storage (auto-regenerated at deploy time)
+backend/data/storage/
+backend/model/storage/
+
+# OS
+.DS_Store
+Thumbs.db
